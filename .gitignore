@@ -1,0 +1,5 @@
+data/*.json
+bin/
+output/
+.env
+.DS_Store

@@ -1,0 +1,11 @@
+services:
+  gateway:
+    build: .
+    ports: ["18083:18083"]
+    environment:
+      PORT: 18083
+      EDGE_API_KEY: ${EDGE_API_KEY:-zhuatech-demo-key}
+      EDGE_DATA_FILE: /app/data/gateway.json
+    volumes: ["gateway-data:/app/data"]
+volumes:
+  gateway-data:
