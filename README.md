@@ -1,5 +1,7 @@
 # 知华边缘计算网关（ZhuaTech Edge Gateway）
 
+[简体中文](README.md) | [English](README.en.md)
+
 面向工厂、楼宇、能源与物联网现场的轻量边缘运行时。它不把“已支持工业协议”写成一句空口号，而是把协议驱动放在明确的 Adapter 边界，社区版内置可运行的模拟适配器，完整实现测点归一、离线规则、事件、可靠 Outbox、云端确认和配置校验。
 
 项目由[知华科技（上海如静知华信息科技有限公司）](https://www.zhuatech.cn/)维护。真实 OPC UA、Modbus、MQTT 驱动适配或商业授权，请微信添加 `zhuatech` 或 `zhuatech2`。
